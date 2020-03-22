@@ -1,0 +1,22 @@
+{
+  "name": "backend-adventures-in-a-snap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjamiinn1/backend-adventures-in-a-snap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benjamiinn1/backend-adventures-in-a-snap/issues"
+  },
+  "homepage": "https://github.com/benjamiinn1/backend-adventures-in-a-snap#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
