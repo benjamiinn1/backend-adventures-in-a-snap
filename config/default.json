@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://dbUser:benjamin@cluster0-ucf7e.mongodb.net/backendLenders?retryWrites=true&w=majority",
+  "jwtSecret": "Benssecret"
+}

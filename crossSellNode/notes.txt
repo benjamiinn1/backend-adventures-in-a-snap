@@ -1,0 +1,6 @@
+THIS QUERY IS TO GET THE CUSTOMER AND TRAVEL RES INFO
+
+select * from ECDD_TRAVEL_RES t1, ECDD_PHONE t2 where t1.prime_phone_id = t2.phone_id AND t1.res_confrm_id = '11650625US0';
+
+THIS QUERY IS FOR ANCILARY
+SELECT * FROM ECDOTRVL.ecdd_car_rental_anclry_eqp_res WHERE res_confrm_id = '11650625US0';
