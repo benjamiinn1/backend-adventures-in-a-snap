@@ -4,7 +4,7 @@ const webServerConfig = require("../config/web-server");
 
 function initialize() {
   router.get("/", async (_req, res) => {
-    res.send("ok");
+    res.send("Hello Person");
   });
 
   router.listen(webServerConfig.PORT).on("listening", () => {
