@@ -1,5 +1,6 @@
 const express = require("express");
 const router = express();
+const path = require("path");
 const webServerConfig = require("../config/web-server");
 const legalAPI = require("../routes/api/legal/privacy");
 // const passport = require("passport");
@@ -9,7 +10,7 @@ function initialize() {
   // passport.use(new FacebookStrategy());
 
   router.get("/", async (_req, res) => {
-    res.send("Hello Person");
+    res.sendFile(path.join(__dirname + "../index.html"));
   });
 
   router.use("/legal", legalAPI);
