@@ -29,6 +29,7 @@ const startup = async () => {
 
   require("./routes/legalRoutes")(router);
   require("./routes/authRoutes")(router);
+  require("./routes/eventRoutes")(router);
 
   router.listen(PORT).on("listening", () => {
     console.log(`Web server listening on localhost:${PORT}`);
