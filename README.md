@@ -8,6 +8,7 @@ My goal is to create an environment where people who have any intrest in photogr
 get together and learn some new skills all while having fun.
 
 <h3>Technologies Used</h3>
+
 - MERN stack
 - passportJS: authenticate with google (will possibly add more login solutions later)
 - mongoose: easy interaction with mongoDB (started out with mongodb package instead but made the switch to mongoose)
