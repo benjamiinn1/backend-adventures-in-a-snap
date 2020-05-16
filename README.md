@@ -1,4 +1,6 @@
-# backend-adventures-in-a-snap
+# Welcome to backend-adventures-in-a-snap!
+
+<h6>This backend is associated with frontend-adventures-in-a-snap</h6>
 
 <h3>Why Adventures in a Snap?</h3>
 This project is built in an attempt to increase public intrest in the art of photography.
