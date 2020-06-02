@@ -15,4 +15,22 @@ module.exports = (router) => {
       },
     ]);
   });
+  router.post('/api/dfwevents/create', (req, res) => {
+    let { name, description } = req.body;
+    const newAdventure = {};
+    name = name.toUpperCase();
+    newAdventure.name = name;
+    newAdventure.description = description
+    
+    try {
+      
+      adventure = new Adventure(newAdventure);
+
+      await adventure.save();
+      res.json({ msg: adventure });
+    } catch (err) {
+      console.log(err.message);
+      res.status(500).send("Server error");
+    }
+  })
 };

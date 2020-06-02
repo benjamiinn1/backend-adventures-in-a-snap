@@ -6,6 +6,7 @@ const userSchema = new Schema({
   firstName: String,
   lastName: String,
   email: String,
+  instructor: Boolean,
 });
 
 mongoose.model("users", userSchema);

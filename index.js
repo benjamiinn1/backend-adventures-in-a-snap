@@ -8,6 +8,7 @@ const passport = require("passport");
 const keys = require("./config/keys");
 const database = require("./services/database.js");
 require("./models/User");
+require("./models/Adventure");
 require("./services/passport");
 
 const startup = async () => {
